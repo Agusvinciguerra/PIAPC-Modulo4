@@ -1,6 +1,6 @@
 import Utils from './utils.js';
 
-export default class Sistem {
+export default class System {
     constructor(){
         this.util = new Utils();
         this.consty = this.util.getRandomArbitrary(150, 450);
